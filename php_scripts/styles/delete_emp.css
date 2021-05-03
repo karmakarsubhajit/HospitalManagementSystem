@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    color: whitesmoke;
+    font-family: sans-serif;
+  }
+  
+  .main__heading {
+    color: red;
+    font-size: xx-large;
+    margin: 5px 5%;
+  }
+  
+  .block {
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    padding: 10px;
+  }
+  
+  .block label {
+    flex: 1;
+    margin-left: 15%;
+  }
+  
+  .block input {
+    float: right;
+    height: 20px;
+    width: 50%;
+    padding: 10px;
+    font-size: 20px;
+    margin-right: 10%;
+  }
+  
+  #submit__button {
+    height: 50px;
+    width: 25%;
+    padding: 10px;
+    font-size: 20px;
+    background-color: red;
+    color: whitesmoke;
+    font-weight: bold;
+    font-size: 25px;
+    bottom: none;
+    margin-left: 15%;
+  }
+  
+  
+  
+  #submit__button:hover{
+      cursor: pointer;
+      background-color: whitesmoke;
+      color: red;
+  }
