@@ -1,0 +1,43 @@
+
+* {
+  background-color: rgb(105, 170, 255);
+  font-family: sans-serif;
+}
+
+.container{
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+#welcome{
+    font-size: larger;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+}
+
+.form input{
+    background: transparent;
+    color: whitesmoke;
+}
+
+.row{
+    margin-top: 10px;
+    padding: 10px;
+    font-size: 20px;
+    width: max-content;
+}
+
+#submit__button{
+    background-color: yellowgreen;
+    border: 2px solid black;
+}
+
+#submit__button:hover{
+    cursor: pointer;
+    background: transparent;
+    color: whitesmoke;
+    border: 2px solid white;
+}
