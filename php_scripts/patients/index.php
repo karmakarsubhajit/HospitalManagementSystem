@@ -12,15 +12,24 @@
 <html lang="en">
 	<head>
 		<title>Patients Info</title>
+		<link rel="stylesheet" href="../styles/options.css">
     </head>
     <body>
-        <div>
+    <div class="options__container">
             <ul>
-                <li><span><a href="view_patients.php">View Patients Details</a></span></li>    
-                <li> <span><a href="add_patients.php">Add Patients Details</a></span></li>
-                <li> <span><a href="update_patients.php">Update Patients Details</a></span></li>
-                <li> <span><a href="delete_patients.php">Delete Patients Details</a></span></li>
+                <li> 
+                    <a href="view_patients.php"><div class="option">View Patients Details</div></a>
+                </li>    
+                <li> 
+                    <a href="add_patients.php"><div class="option">Add Patients Details</div></a>
+                </li>
+                <li> 
+                    <a href="update_patients.php"><div class="option">Update Patients Details</div></a>
+                </li>
+                <li> 
+                    <a href="delete_patients.php"><div class="option">Delete Patients Details</div></a>
+                </li>
             </ul>   
-        </div>  
+        </div>   
     </body>
 </html>

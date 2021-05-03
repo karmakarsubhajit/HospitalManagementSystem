@@ -12,15 +12,25 @@
 <html lang="en">
 	<head>
 		<title>Nurses Info</title>
+		<link rel="stylesheet" href="../styles/options.css">
     </head>
     <body>
-        <div>
+    <div class="options__container">
             <ul>
-                <li><span><a href="view_nurses.php">View Nurses Details</a></span></li>    
-                <li> <span><a href="add_nurses.php">Add Nurses Details</a></span></li>
-                <li> <span><a href="update_nurses.php">Update Nurses Details</a></span></li>
-                <li> <span><a href="delete_nurses.php">Delete Nurses Details</a></span></li>
+                <li> 
+                    <a href="view_nurses.php"><div class="option">View Nurses Details</div></a>
+                </li>    
+                <li> 
+                    <a href="add_nurses.php"><div class="option">Add Nurses Details</div></a>
+                </li>
+                <li> 
+                    <a href="update_nurses.php"><div class="option">Update Nurses Details</div></a>
+                </li>
+                <li> 
+                    <a href="delete_nurses.php"><div class="option">Delete Nurses Details</div></a>
+                </li>
             </ul>   
         </div>  
+    </body> 
     </body>
 </html>
