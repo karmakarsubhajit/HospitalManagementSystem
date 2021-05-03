@@ -1,0 +1,31 @@
+@font-face {
+    font-family: moontime;
+    src: url("../../assets/MoonTime-Regular-www.Dfonts.org_1/MoonTime-Regular-www.Dfonts.org/MoonTime-Regular.otf");
+  }
+
+*{
+    background-color: hotpink;
+    font-family: sans-serif;
+}
+
+.login__container{
+    margin-left: 25%;
+}
+
+.login__heading{
+    color: blanchedalmond;
+    font-family: moontime;
+    font-size: 100px;
+    font-weight: normal;
+}
+
+.login__admin__link a{
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+.login__admin__link{
+    border: whitesmoke 2px solid;
+    width: 100px;
+    padding: 10px;
+}
