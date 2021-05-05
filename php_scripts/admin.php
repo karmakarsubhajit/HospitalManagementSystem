@@ -29,6 +29,18 @@
                 <li> 
                     <a href="appointments/index.php"><div class="option">Appointments</div></a>
                 </li>
+                <li> 
+                    <a href="services/index.php"><div class="option">Services</div></a>
+                </li>    
+                <li> 
+                    <a href="rooms/index.php"><div class="option">Rooms</div></a>
+                </li>
+                <li> 
+                    <a href="medicines/index.php"><div class="option">Medicines</div></a>
+                </li>
+                <li> 
+                    <a href="more_stats/index.php"><div class="option">More Statistics</div></a>
+                </li>
             </ul>   
         </div>  
     </body>
