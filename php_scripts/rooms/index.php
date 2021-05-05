@@ -12,16 +12,29 @@
 <html lang="en">
 	<head>
 		<title>Rooms Info</title>
+		<link rel="stylesheet" href="../styles/options.css">
     </head>
     <body>
-        <div>
+        <div class="options__container">
             <ul>
-                <li><span><a href="view_rooms.php">View Rooms Details</a></span></li>    
-                <li> <span><a href="add_rooms.php">Add Rooms Details</a></span></li>
-                <li> <span><a href="delete_rooms.php">Delete Rooms Details</a></span></li>
-                <li> <span><a href="assign_roomsPatients.php">Assign Patients Rooms</a></span></li>
-                <li> <span><a href="assign_roomsNurses.php">Assign Nurses Rooms</a></span></li>
-                <li> <span><a href="viewNurseDuty.php">View Nurse Duty</a></span></li> 
+                <li> 
+                    <a href="view_rooms.php"><div class="option">View Rooms Details</div></a>
+                </li>    
+                <li> 
+                    <a href="add_rooms.php"><div class="option">Add Rooms Details</div></a>
+                </li>
+                <li> 
+                    <a href="delete_rooms.php"><div class="option">Delete Rooms Details</div></a>
+                </li>
+                <li> 
+                    <a href="assign_roomsPatients.php"><div class="option">Assign Patients Rooms</div></a>
+                </li>
+                <li> 
+                    <a href="assign_roomsNurses.php"><div class="option">Assign Nurses Rooms</div></a>
+                </li>
+                <li> 
+                    <a href="viewNurseDuty.php"><div class="option">View Nurse Duty</div></a>
+                </li>
             </ul>   
         </div>  
     </body>
