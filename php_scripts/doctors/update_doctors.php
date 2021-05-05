@@ -8,7 +8,7 @@
 <!DOCTYPE HTML>
 <html>
     <head>
-        <title>Uodate doctors </title>
+        <title>Update doctors </title>
 		<link rel="stylesheet" href="../styles/update_emp.css">
     </head>
     <body>
