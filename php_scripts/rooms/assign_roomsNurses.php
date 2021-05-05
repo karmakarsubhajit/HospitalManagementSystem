@@ -8,23 +8,29 @@
 <!DOCTYPE HTML>
 <html>
     <head>
-        <title>Delete Nurses </title>
+        <title>Assign Rooms to Patients</title>
     </head>
     <body>
         
- <h2>Delete Nurses! </h2>
- <form method="post" action="remove_nurse.php">									
+ <h2>Assign Room! </h2>
+ <form method="post" action="insert_nurseInRoom.php">		
+
 		<div>
 			<label for="nurseID">
-				ID
+				Nurse ID
 			</label>
 			<input type="text" name="Nurse_ID"  placeholder="Enter Nurse ID">
 		</div>
 
-		
-														
+		<div>
+			<label for="Room No">
+				Room No
+			</label>
+			<input type="text" name="Room_No"  placeholder="Enter Room No ">
+		</div>
+												
 	<button type="submit" name="submit" >
-		Delete Nurse
+		Assign Nurse
 	</button>
 	</form>
 												

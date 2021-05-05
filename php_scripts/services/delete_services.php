@@ -8,23 +8,23 @@
 <!DOCTYPE HTML>
 <html>
     <head>
-        <title>Delete doctors </title>
+        <title>Delete services </title>
     </head>
     <body>
         
- <h2>Delete doctors! </h2>
- <form method="post" action="remove_doctor.php">									
+ <h2>Delete services! </h2>
+ <form method="post" action="remove_service.php">									
 		<div>
-			<label for="doctorID">
+			<label for="serviceID">
 				ID
 			</label>
-			<input type="text" name="Doctor_ID"  placeholder="Enter Doctor ID">
+			<input type="text" name="Service_ID"  placeholder="Enter Service ID">
 		</div>
 
 		
 														
 	<button type="submit" name="submit" >
-		Delete Doctor
+		Delete Service
 	</button>
 	</form>
 												

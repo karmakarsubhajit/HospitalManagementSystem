@@ -12,24 +12,19 @@
 <html lang="en">
 	<head>
 		<title>Admin</title>
-		<link rel="stylesheet" href="./styles/options.css">
     </head>
     <body>
-    <div class="options__container">
+        <div>
             <ul>
-                <li> 
-                    <a href="doctors/index.php"><div class="option">Doctors</div></a>
-                </li>    
-                <li> 
-                    <a href="patients/index.php"><div class="option">Patients</div></a>
-                </li>
-                <li> 
-                    <a href="nurses/index.php"><div class="option">Nurses</div></a>
-                </li>
-                <li> 
-                    <a href="appointments/index.php"><div class="option">Appointments</div></a>
-                </li>
-            </ul>   
+                <li><span><a href="doctors/index.php"> Doctors </a></span></li>    
+                <li><span><a href="patients/index.php"> Patients </a></span></li>
+                <li><span><a href="nurses/index.php"> Nurses </a></span></li>
+                <li><span><a href ="appointments/index.php"> Appointments </a></span></li>
+                <li><span><a href = "services/index.php"> Services</a></span></li>
+                <li><span><a href = "rooms/index.php"> Rooms</a></span></li>
+                <li><span><a href ="medicines/index.php">Medicines </a> </span> </li>
+                <li><span><a href ="more_stats/index.php">More Stats </a> </span> </li>
+             </ul>   
         </div>  
     </body>
 </html>

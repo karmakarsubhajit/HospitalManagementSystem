@@ -9,23 +9,15 @@
 <html lang="en">
 	<head>
 		<title>Doctors Info</title>
-		<link rel="stylesheet" href="../styles/options.css">
     </head>
     <body>
-        <div class="options__container">
+        <div>
             <ul>
-                <li> 
-                    <a href="view_doctors.php"><div class="option">View Doctors Details</div></a>
-                </li>    
-                <li> 
-                    <a href="add_doctors.php"><div class="option">Add Doctors Details</div></a>
-                </li>
-                <li> 
-                    <a href="update_doctors.php"><div class="option">Update Doctors Details</div></a>
-                </li>
-                <li> 
-                    <a href="delete_doctors.php"><div class="option">Delete Doctors Details</div></a>
-                </li>
+                <li><span><a href="view_doctors.php">View Doctors Details</a></span></li>    
+                <li> <span><a href="add_doctors.php">Add Doctors Details</a></span></li>
+                <li> <span><a href="update_doctors.php">Update Doctors Details</a></span></li>
+                <li> <span><a href="delete_doctors.php">Delete Doctors Details</a></span></li>
+                
             </ul>   
         </div>  
     </body>
