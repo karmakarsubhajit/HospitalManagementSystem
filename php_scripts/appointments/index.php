@@ -9,15 +9,23 @@
 <html lang="en">
 	<head>
 		<title>Appointment Info</title>
+		<link rel="stylesheet" href="../styles/options.css">
     </head>
     <body>
-        <div>
+        <div class="options__container">
             <ul>
-                <li><span><a href="view_appointments.php">View Appointment Details</a></span></li>    
-                <li> <span><a href="book_appointments.php">Book Appointment</a></span></li>
-                <li> <span><a href="update_appointment_status.php">Update Appointment Status</a></span></li>
-                <li> <span><a href="delete_appoinment.php">Delete Appoinment</a></span></li>
-                
+                <li> 
+                    <a href="view_appointments.php"><div class="option">View Appointment Details</div></a>
+                </li>    
+                <li> 
+                    <a href="book_appointments.php"><div class="option">Book Appointment</div></a>
+                </li>
+                <li> 
+                    <a href="update_appointment_status.php"><div class="option">Update Appointment Status</div></a>
+                </li>
+                <li> 
+                    <a href="delete_appoinment.php"><div class="option">Delete Appointment</div></a>
+                </li>
             </ul>   
         </div>  
     </body>
