@@ -10,6 +10,7 @@
 <html>
 <head>
     <title>Details of Rooms</title>
+	<link rel="stylesheet" href="../styles/view_emp.css">
 </head>
 <body>
         <?php include "../include/header.php" ?>
@@ -23,26 +24,27 @@
         $ans = $conn->query($command);
             if(mysqli_num_rows($ans) > 0)
             {
-                echo "<h2>View Duty of Nurses </h2>";    
+                echo "<h2 id='main_heading'>View Duty of Nurses </h2>";    
             echo "<table>";
                 echo "<tr>";
-                echo "<th><em> Room No </em></th>";
-                echo "<th><em> Patient Name</em></th>";
-                echo "<th><em> Nurse Name</em></th>";
+                echo "<th><em class='header_row'> Room No </em></th>";
+                echo "<th><em class='header_row'> Patient Name</em></th>";
+                echo "<th><em class='header_row'> Nurse Name</em></th>";
                 echo "</tr>";
+                echo "<hr>";
             while($table_row = mysqli_fetch_array($ans))
             {
                  echo "<tr>";
-                 echo "<td>" .$table_row['Room_No']. "</td>";
-                 echo "<td>" .$table_row['Patient_Name']. "</td>";
-                 echo "<td>" .$table_row['Nurse_Name']. "</td>";
+                 echo "<td class='other_row'>" .$table_row['Room_No']. "</td>";
+                 echo "<td class='other_row'>" .$table_row['Patient_Name']. "</td>";
+                 echo "<td class='other_row'>" .$table_row['Nurse_Name']. "</td>";
                  echo "</tr>";
             }
                   echo "</table>";
         }
          else
          {
-            echo "Sorry no patients here";     
+            echo "<h2>Sorry no patients here</h2>";     
          }?>
 
 
