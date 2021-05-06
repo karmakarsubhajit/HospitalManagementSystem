@@ -16,7 +16,7 @@
         <link rel="stylesheet" href="./styles/contact.css">
     </head>
     <body>
-    <?php include "./include/header.php" ?>
+    <?php include "header.php" ?>
 
         <div class="jumbotron">
             <div><h2>Developers Contact </h2></div>
