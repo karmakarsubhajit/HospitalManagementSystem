@@ -41,4 +41,8 @@
   <script src="js/main.js"></script>
 
 	</body>
+<<<<<<< HEAD
 </html>
+=======
+</html>
+>>>>>>> 11be4e3f22709555858a2f5f7895593763c62a7e
