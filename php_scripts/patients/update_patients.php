@@ -12,7 +12,7 @@
 		<link rel="stylesheet" href="../styles/update_emp.css">
     </head>
     <body>
-        
+    <?php include "../include/header.php" ?>
  <h2 class="main__heading">Update Patient! </h2>
  <form method="post" action="update_patientDetails.php">		
  	<div class="form__container">

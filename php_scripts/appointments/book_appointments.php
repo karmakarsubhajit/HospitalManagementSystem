@@ -12,7 +12,8 @@
 		<link rel="stylesheet" href="../styles/add_emp.css">
     </head>
     <body>
-        
+    <?php include "../include/header.php" ?>
+	
  <h2 class="main__heading">Book Appointments!</h2>
  <form method="post" action="insert_appointment.php">	
  	<div class="form__container">

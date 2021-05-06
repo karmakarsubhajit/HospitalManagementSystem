@@ -12,7 +12,7 @@
 		<link rel="stylesheet" href="../styles/delete_emp.css">
     </head>
     <body>
-        
+    <?php include "../include/header.php" ?>
  <h2 class="main__heading">Delete Nurses! </h2>
  <form method="post" action="remove_nurse.php">
 	<div class="form__container">

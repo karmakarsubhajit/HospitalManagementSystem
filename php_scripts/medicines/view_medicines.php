@@ -12,7 +12,7 @@
     <title>Details of Medicines</title>
 </head>
 <body>
-    
+<?php include "../include/header.php" ?>
         <?php $conn = mysqli_connect("localhost","root","password","Hospital");
         if($conn->connect_error)
         {

@@ -12,7 +12,8 @@
 		<link rel="stylesheet" href="../styles/add_emp.css">
     </head>
     <body>
-        
+	<?php include "../include/header.php" ?>
+      
  <h2 class="main__heading">Assign Room! </h2>
  <form method="post" action="insert_patientInRoom.php">		
  	<div class="form__container">

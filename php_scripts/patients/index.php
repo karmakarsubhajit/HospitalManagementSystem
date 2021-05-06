@@ -15,6 +15,7 @@
 		<link rel="stylesheet" href="../styles/options.css">
     </head>
     <body>
+    <?php include "../include/header.php" ?>
     <div class="options__container">
             <ul>
                 <li> 

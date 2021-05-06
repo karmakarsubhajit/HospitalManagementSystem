@@ -13,7 +13,7 @@
 		<link rel="stylesheet" href="../styles/update_emp.css">
     </head>
     <body>
-        
+    <?php include "../include/header.php" ?>  
  <h2 class="main__heading">Buy Medicines! </h2>
  <form method="post" action="buy_medicineDetails.php">
  	<div class="form__container">

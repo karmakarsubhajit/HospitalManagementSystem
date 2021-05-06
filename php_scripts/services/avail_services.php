@@ -13,7 +13,8 @@
 		<link rel="stylesheet" href="../styles/add_emp.css">
     </head>
     <body>
-        
+	<?php include "../include/header.php" ?>
+ 
  <h2 class="main__heading">Buy Services! </h2>
  <form method="post" action="avail_serviceDetails.php">	
 	<div class="form__container">

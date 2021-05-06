@@ -12,7 +12,8 @@
 		<link rel="stylesheet" href="../styles/delete_emp.css">
     </head>
     <body>
-        
+    <?php include "../include/header.php" ?>
+  
  <h2 class="main__heading">Delete Rooms! </h2>
  <form method="post" action="remove_room.php">	
  	<div class="form__container">							

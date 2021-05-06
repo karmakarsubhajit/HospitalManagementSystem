@@ -12,7 +12,8 @@
 		<link rel="stylesheet" href="../styles/delete_emp.css">
     </head>
     <body>
-        
+	<?php include "../include/header.php" ?>
+
  <h2 class="main__heading">Delete services! </h2>
  <form method="post" action="remove_service.php">	
 	<div class="form__container">
