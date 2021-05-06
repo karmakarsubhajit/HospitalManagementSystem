@@ -53,7 +53,7 @@
                 $ans = $conn->query($command);
                 if(mysqli_num_rows($ans) > 0)
                 {
-                    echo "<h2>No of the patients admitted</h2>";    
+                    echo "<h2>No of Patients admitted</h2>";    
                     echo "<table>";
                     echo "<tr>";
                     echo "</tr>";
@@ -138,7 +138,7 @@
                 $ans = $conn->query($command);
                 if(mysqli_num_rows($ans) > 0)
                 {
-                    echo "<h2>No of appointments pending</h2>";    
+                    echo "<h2>No of Appointments pending</h2>";    
                     echo "<table>";
                     echo "<tr>";
                     echo "</tr>";

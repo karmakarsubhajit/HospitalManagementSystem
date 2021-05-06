@@ -1,0 +1,6 @@
+.color-with-marker {
+    list-style-position: inside;
+  }
+  .color-with-marker ::marker {
+    color: rgb(0, 17, 255);
+  }

@@ -24,7 +24,7 @@
         $ans = $conn->query($command);
             if(mysqli_num_rows($ans) > 0)
             {
-                echo "<h2 id='main_heading'>View Duty of Nurses </h2>";    
+                echo "<h2 id='main_heading'>View Patients assigned to Nurses </h2>";    
             echo "<table>";
                 echo "<tr>";
                 echo "<th><em class='header_row'> Room No </em></th>";
