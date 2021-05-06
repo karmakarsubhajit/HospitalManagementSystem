@@ -9,11 +9,12 @@
 <html lang="en">
 	<head>
 		<title>More stats</title>
+		<link rel="stylesheet" href="../styles/more_stats.css">
     </head>
     <body>
     <?php include "../include/header.php" ?>
         <div>
-            <div>  
+            <div class="block">  
                 <?php 
                 $conn = mysqli_connect("localhost","root","password","Hospital");
                 if($conn->connect_error)
@@ -41,7 +42,7 @@
                     echo "Sorry no info available";     
                 }?>
             </div>
-            <div>  
+            <div class="block">  
                 <?php 
                 $conn = mysqli_connect("localhost","root","password","Hospital");
                 if($conn->connect_error)
@@ -69,7 +70,7 @@
                     echo "Sorry no info available";     
                 }?>
             </div>
-            <div>  
+            <div class="block">  
                 <?php 
                 $conn = mysqli_connect("localhost","root","password","Hospital");
                 if($conn->connect_error)
@@ -98,7 +99,7 @@
                 }?>
             </div>
 
-            <div>  
+            <div class="block">  
                 <?php 
                 $conn = mysqli_connect("localhost","root","password","Hospital");
                 if($conn->connect_error)
@@ -126,7 +127,7 @@
                     echo "Sorry no info available";     
                 }?>
             </div>
-            <div>  
+            <div class="block">  
                 <?php 
                 $conn = mysqli_connect("localhost","root","password","Hospital");
                 if($conn->connect_error)
