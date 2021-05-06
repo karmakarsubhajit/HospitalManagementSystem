@@ -41,7 +41,7 @@
                     <a href="medicines/index.php"><div class="option">Medicines</div></a>
                 </li>
                 <li> 
-                    <a href="more_stats/index.php"><div class="option">More Statistics</div></a>
+                    <a href="more_stats/index.php"><div class="option">More Stats</div></a>
                 </li>
             </ul>   
         </div>  
