@@ -52,7 +52,7 @@
         }
          else
          {
-            echo "Sorry no Nurses here";     
+            echo "<h2>Sorry no Nurses here</h2>";     
          }?>
 
 

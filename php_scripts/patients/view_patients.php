@@ -55,7 +55,7 @@
         }
          else
          {
-            echo "Sorry no patients here";     
+            echo "<h2>Sorry no patients here</h2>";     
          }?>
 
 
