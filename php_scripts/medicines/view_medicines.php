@@ -10,6 +10,7 @@
 <html>
 <head>
     <title>Details of Medicines</title>
+	<link rel="stylesheet" href="../styles/view_emp.css">
 </head>
 <body>
 <?php include "../include/header.php" ?>
@@ -23,30 +24,31 @@
         $ans = $conn->query($command);
         if(mysqli_num_rows($ans) > 0)
         {
-            echo "<h2>Medicines info</h2>";    
+            echo "<h2 id='main_heading'>Medicines info</h2>";    
             echo "<table>";
             echo "<tr>";
-            echo "<th><em> Medicine ID </em></th>";
-            echo "<th><em>Name</em></th>";
-            echo "<th><em>Price</em></th>";
-            echo "<th><em>Expiry Date</em></th>";
-            echo "<th><em>Supplier</em></th>";
+            echo "<th><em class='header_row'> Medicine ID </em></th>";
+            echo "<th><em class='header_row'>Name</em></th>";
+            echo "<th><em class='header_row'>Price</em></th>";
+            echo "<th><em class='header_row'>Expiry Date</em></th>";
+            echo "<th><em class='header_row'>Supplier</em></th>";
             echo "</tr>";
+            echo "<hr>";
             while($table_row = mysqli_fetch_array($ans))
             {
                 echo "<tr>";
-                echo "<td>" .$table_row['Medicine_ID']. "</td>";
-                echo "<td>" .$table_row['Name']. "</td>";
-                echo "<td>" .$table_row['Price']. "</td>";
-                echo "<td>" .$table_row['Expiry_Date']. "</td>";
-                echo "<td>" .$table_row['Supplier']. "</td>";
+                echo "<td class='other_row'>" .$table_row['Medicine_ID']. "</td>";
+                echo "<td class='other_row'>" .$table_row['Name']. "</td>";
+                echo "<td class='other_row'>" .$table_row['Price']. "</td>";
+                echo "<td class='other_row'>" .$table_row['Expiry_Date']. "</td>";
+                echo "<td class='other_row'>" .$table_row['Supplier']. "</td>";
                 echo "</tr>";
             }
             echo "</table>";
         }
         else
         {
-            echo "Sorry no Medicine here";     
+            echo "<h2>Sorry no Medicine here</h2>";     
         }?>
 
 
