@@ -1,0 +1,12 @@
+1) Use MariaDB for the backend of this LAMP project
+2) Create a database named Hospital
+3) Import schema.sql file 
+4) Import db_procedures.sql file
+5) Import db_functions.sql file
+6) Import data.sql file
+7) Your admin username: dbadmin and password: dbadminpassword. 
+  You can change the login crdentials by going to the table named:"Admin" of "Hospital" database 
+  and by changing the value of username and password. 
+   
+
+Note:- The sql scripts should be imported in the order mentioned from steps 3-7. 
